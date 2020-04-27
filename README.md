@@ -17,3 +17,6 @@ http://127.0.0.1:8080/LabelMeAnnotationTool/tool.html?mode=f&folder=example_fold
 * Masks - This is where the segmentation masks are collected (scribble mode).
 * Scribbles - This is where the scribbles are collected (scribble mode).
 * annotationCache - Location of temporary files.
+
+# Acknowledgement
+This repo is the fork of [CSAILVision/LabelMeAnnotationTool](https://github.com/CSAILVision/LabelMeAnnotationTool).
