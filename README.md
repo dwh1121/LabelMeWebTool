@@ -1,12 +1,14 @@
 # LabelMeWebTool
 Customize the Docker installation method of LabelMeAnnotationTool.
 
-# Windows 10 Professional
-## Build Docker
-> .\build_image.bat
----
-## Run Docker
-> .\run_image.bat
+# In Windows 10 64-bit: Pro, Enterprise, or Education
+## Install Docker
+Install Docker according to the [official website](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install).
+
+## Build Docker Container
+```.\build_container.bat```
+## Run Docker Container
+```.\run_container.bat```
 
 # Web Url:
 http://127.0.0.1:8080/LabelMeAnnotationTool/tool.html?mode=f&folder=example_folder&username=Hans&objects=car
