@@ -10,11 +10,12 @@ DEBIAN_FRONTEND=noninteractive apt -y -o Dpkg::Options::="--force-confdef" -o Dp
 # install dependencies for labelme
 apt install -y apache2 git libapache2-mod-perl2 libcgi-session-perl libapache2-mod-php make php
 
-# Clone LabelMe,move it and make
-git clone https://github.com/CSAILVision/LabelMeAnnotationTool.git
+# Clone LabelMe, move it and make
+# git clone https://github.com/CSAILVision/LabelMeAnnotationTool.git
+git clone https://github.com/dwh1121/LabelMeAnnotationTool.git
 
 # fix draw_anno is null bug
-sed -i 's/draw_anno.time_point/anno.time_point/g' ./LabelMeAnnotationTool/annotationTools/js/handler.js
+# sed -i 's/draw_anno.time_point/anno.time_point/g' ./LabelMeAnnotationTool/annotationTools/js/handler.js
 
 # remove example data
 rm -rf ./LabelMeAnnotationTool/annotationCache
