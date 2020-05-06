@@ -45,3 +45,5 @@ apt clean
 apt autoclean
 
 rm -rf /tmp/*
+
+rm -rf /root/share
